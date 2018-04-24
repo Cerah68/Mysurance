@@ -4,18 +4,18 @@ import delay from './delay';
 // It uses setTimeout to simulate the delay of an AJAX call.
 // All calls return promises.
 const insurances = [
-    {
-        id: 1,
-        title: "Test 1",
-        yearlyPremium: 1000,
-        category: "Agricultural insurance"
-    },
-    {
-        id: 2,
-        title: "Test 2",
-        yearlyPremium: 500,
-        category: "Flood insurance"
-    }
+    // {
+    //     id: 1,
+    //     title: "Test 1",
+    //     yearlyPremium: 1000,
+    //     category: "Agricultural insurance"
+    // },
+    // {
+    //     id: 2,
+    //     title: "Test 2",
+    //     yearlyPremium: 500,
+    //     category: "Flood insurance"
+    // }
 ];
 
 const getNextId = () => {
